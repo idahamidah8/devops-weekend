@@ -1,0 +1,7 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+url = 'https://drive.google.com/uc?id=1oFYk6xUhRNutVHbS8RRfhoQYdk3E5tyr'
+data = pd.read_csv(url)
+print(data.head())
+print(data.describe())
